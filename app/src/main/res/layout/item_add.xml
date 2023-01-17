@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="15dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Fill up the form"
+            android:textSize="19sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/firstInput_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/background_shape"
+            android:hint="name"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:textSize="15sp"
+            android:textStyle="bold"></EditText>
+
+        <EditText
+            android:id="@+id/secondInput_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/background_shape"
+            android:hint="time"
+            android:inputType="time"
+            android:padding="15dp"
+            android:textSize="15sp"
+            android:textStyle="bold"></EditText>
+
+    </LinearLayout>
+</LinearLayout>

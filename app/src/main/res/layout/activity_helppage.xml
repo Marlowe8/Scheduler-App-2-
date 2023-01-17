@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Helppage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_help_24"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:text="Help"
+            android:textColor="@color/purple_500"
+            android:textSize="28dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.8in"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:text="Schedule: press the button on the left in order to add an item (time only accepts am/pm and numbers)\n\nCm Converter: Enter the centimeter and press the button below to convert it"
+            android:textColor="@color/teal_700"
+            android:textSize="18dp"
+            android:textStyle="normal"></TextView>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_menu_book_24"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:text="About"
+            android:textColor="@color/purple_500"
+            android:textSize="28dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.8in"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:text="The Scheduler is made in order to help the user to track its schedule and routine, it also has extra features where it ables to convert cm to inch, foot, and meters"
+            android:textColor="@color/teal_700"
+            android:textSize="20dp"
+            android:textStyle="normal"></TextView>
+
+    </LinearLayout>
+</RelativeLayout>
